@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+npx create-next-app nextjs-chat-app --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
