@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap");
+
+* {
+  font-family: Quicksand !important;
+}
+
+/* Chat List */
+.ce-chats-container {
+  background-color: #4a5162 !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-form-container {
+  background-color: #4a5162 !important;
+}
+
+.ce-chat-card {
+  padding: 6px 12px;
+}
+
+.ce-active-chat-card {
+  background-color: #726dfe !important;
+}
+
+.ce-chat-title-text {
+  color: white !important;
+}
+
+.ce-chat-subtitle-text {
+  color: hsla(0, 0%, 100%, 0.568) !important;
+}
+
+.ce-chat-unread-dot {
+  background-color: white !important;
+}
+
+/* Chat Feed */
+
+.ce-chat-title-container {
+  background-color: #4a5162 !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-feed-container {
+  background-color: #4a5162 !important;
+}
+
+.ce-primary-button {
+  background-color: #9a97fc !important;
+}
+
+#ce-send-message-button {
+  background-color: #9a97fc !important;
+}
