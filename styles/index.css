@@ -17,7 +17,7 @@
 }
 
 .ce-chat-card {
-  padding: 6px 12px;
+  margin: 0px 6px !important;
 }
 
 .ce-active-chat-card {
@@ -53,4 +53,30 @@
 
 #ce-send-message-button {
   background-color: #9a97fc !important;
+}
+
+#ce-ice-breaker-gif {
+  max-width: 115px !important;
+  margin-top: 30px !important;
+}
+
+/* Chat Settings */
+
+.ce-settings {
+  background-color: #4a5162 !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-title-form .ce-text-input {
+  background-color: #4a5162;
+  color: white;
+}
+
+.ce-section-title-container {
+  background-color: #4a5162 !important;
+  color: white;
+}
+
+.ce-person-text {
+  color: hsla(0, 0%, 100%, 0.568);
 }
