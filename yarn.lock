@@ -1840,10 +1840,10 @@ rc-util@^5.9.4:
     react-is "^16.12.0"
     shallowequal "^1.1.0"
 
-react-chat-engine@1.11.15:
-  version "1.11.15"
-  resolved "https://registry.yarnpkg.com/react-chat-engine/-/react-chat-engine-1.11.15.tgz#4504ff41a9ac7bf9adf96c5ed0f0842270039ba1"
-  integrity sha512-FxUuQiuTYTs/2JEq8B7AAKedo5Ko2m/V90B86XERaz02bUHuLIKY01t5ZL+TXhjbkbb/jCl/3tbcQ/mwD+DltQ==
+react-chat-engine@1.11.17:
+  version "1.11.17"
+  resolved "https://registry.yarnpkg.com/react-chat-engine/-/react-chat-engine-1.11.17.tgz#12af1d0f82bbaed71a518079473e7220084e8bed"
+  integrity sha512-lKjykK6mP2oqFG8JtNGEi5qO3RtBQ+keqRKrr5QZQ9OpelxK6chRPl94TznKZwxvcH/rRcyf44LA4QVM8V5tnA==
   dependencies:
     "@ant-design/icons" "^4.2.2"
     axios "^0.21.1"
