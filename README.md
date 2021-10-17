@@ -1,7 +1,7 @@
 # React Support Engine
 
 <img 
-    src="https://chat-engine-assets.s3.amazonaws.com/tutorials/react-support-engine/support-engine-demo.gif" 
+    src="https://raw.githubusercontent.com/alamorre/nextjs-chat-app/main/assets/nextjs-chat-tutorial.png" 
     width="75%" 
     height="100%"
 />
