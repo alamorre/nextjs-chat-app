@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <div className='background'>
-      <div style={{ boxShadow: '0 2px 15px rgb(0 0 0 / 68%)' }}>
+      <div className='shadow'>
         <ChatEngine 
           height='calc(100vh - 212px)'
           projectID='b60a6d8b-d377-477e-af88-e47de35b3e89'
