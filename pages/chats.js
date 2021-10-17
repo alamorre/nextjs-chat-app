@@ -3,6 +3,7 @@ import React, { useState, useEffect, useContext } from 'react'
 import { Context } from '../context';
 
 import dynamic from 'next/dynamic'
+import { useRouter } from 'next/router'
 
 const ChatEngine = dynamic(() => import('react-chat-engine').then((module) => module.ChatEngine));
 const MessageFormSocial = dynamic(() => import('react-chat-engine').then((module) => module.MessageFormSocial));
@@ -10,12 +11,19 @@ const MessageFormSocial = dynamic(() => import('react-chat-engine').then((module
 export default function Home() {
   const { username, secret } = useContext(Context)
   const [showChat, setShowChat] = useState(false)
+  const router = useRouter()
 
   useEffect(() => {
     if (typeof document !== undefined) {
       setShowChat(true)
     }
   }, [])
+
+  useEffect(() => {
+    if (username === '' || secret === '') {
+      router.push('/')
+    }
+  }, [username, secret])
 
   if (!showChat) return <div />
 
